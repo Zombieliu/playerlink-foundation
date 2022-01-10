@@ -3,7 +3,7 @@ export default function Home() {
     return (
         <div>
         <div className=" bg-white bg-cover  md:bg-center  overflow-hidden "
-             style={{backgroundImage:"url('https://near.foundation/wp-content/themes/nf19/assets/img/map.svg') "}}>
+             style={{backgroundImage:"url('https://cdn.discordapp.com/attachments/897398778166906911/930096203247534170/123123123123.jpg') "}}>
             <div className=" flex flex-wrap justify-center md:flex-nowrap md:justify-start p-5 md:px-40 ">
             <div className=" text-center md:text-left md:mt-20 md:w-8/12">
                 <div className="flex justify-center md:justify-start p-16 md:p-0 md:-pt-10 lg:flex-1">
@@ -11,7 +11,7 @@ export default function Home() {
                         <span className="sr-only">Workflow</span>
                         <img
                             className="w-auto h-16"
-                            src="https://near.foundation/wp-content/themes/nf19/assets/img/logo.svg?t=1573683619"
+                            src="https://cdn.discordapp.com/attachments/897398778166906911/918367494304038982/viewfile.png"
                             alt=""
                         />
                     </a>
@@ -22,18 +22,20 @@ export default function Home() {
                 <div className=" text-base md:w-7/12 align-bottom">
                     We are a non-profit foundation headquartered in Switzerland that is responsible for contracting protocol maintainers,
                     funding ecosystem development,
-                    and shepherding core governance of the <a className="underline hover:text-blue-600" href="">NEAR Protocol.</a>
+                    and shepherding core governance of the <a className="underline hover:text-blue-600"
+                                                              href="https://playerlink.org">
+                    PlayerLink Protocol.</a>
                 </div>
             </div>
             <div className="flex-col flex-wrap justify-between py-20 md:py-40  ">
-                <div className="text-center md:text-left  text-xl md:mt-36 ">
+                <div className="text-center md:text-left   text-xl md:mt-36 ">
                 To learn more about the protocol
                 </div>
                 <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid p-10 sm:gap-5">
                  <a
-                   href="#"
-                    className="flex items-center justify-center px-4 py-3 border border-green-400 text-base font-medium rounded-full shadow-sm  text-green-400 hover:text-white hover:bg-green-400 sm:px-16"
-                   >VISIT NEAR.ORG
+                   href="https://playerlink.org"
+                    className="flex items-center justify-center px-4 py-3 border  text-base font-medium rounded-full shadow-sm   text-white hover:bg-blue-300 sm:px-16"
+                   >VISIT PlayerLink.ORG
 
                  </a>
                 </div>
@@ -42,7 +44,7 @@ export default function Home() {
         </div>
             <div className="text-center md:flex  md:justify-start   md:mx-40  md:py-16 border-t-2">
                 <div className="pt-10 text-xs text-gray-400 md:text-left">
-                    © 2021 NEAR Foundation
+                    © 2022 PlayerLink Foundation
                     <div className="mt-2">
                     All Rights Reserved
                     </div>
@@ -52,7 +54,7 @@ export default function Home() {
                     Contact Us
                     </div>
                     <div className="mt-2  text-blue-600 ">
-                        <a href="">
+                        <a href="mailto: hello@playerlink.org">
                     Send an Email
                             <i className="pl-2 fa fa-arrow-right text-gray-200" aria-hidden="true"></i>
                         </a>
@@ -64,7 +66,7 @@ export default function Home() {
                     Careers
                     </div>
                     <div className="mt-2   text-blue-600">
-                        <a href="">
+                        <a href="https://playerlink.org">
                     View Openings
                             <i className="pl-2 fa fa-arrow-right text-gray-200" aria-hidden="true"></i>
                         </a>
