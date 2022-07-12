@@ -1,21 +1,16 @@
+import React from "react";
+import Header from "../../components/header";
+import Tail from "../../components/tail";
 
 export default function Home() {
     return (
         <div>
+            <Header/>
         <div className=" bg-white bg-cover  md:bg-center  overflow-hidden "
-             style={{backgroundImage:"url('https://cdn.discordapp.com/attachments/897398778166906911/930096203247534170/123123123123.jpg') "}}>
-            <div className=" flex flex-wrap justify-center md:flex-nowrap md:justify-start p-5 md:px-40 ">
+             style={{backgroundImage:"url('PL官网Foundation页面背景光.png') "}}>
+
+            <div className=" pt-10 p-5 md:px-40  pt-56 py-56 text-white">
             <div className=" text-center md:text-left md:mt-20 md:w-8/12">
-                <div className="flex justify-center md:justify-start p-16 md:p-0 md:-pt-10 lg:flex-1">
-                    <a href="#">
-                        <span className="sr-only">Workflow</span>
-                        <img
-                            className="w-auto h-16"
-                            src="https://cdn.discordapp.com/attachments/897398778166906911/918367494304038982/viewfile.png"
-                            alt=""
-                        />
-                    </a>
-                </div>
                 <div className="text-3xl md:text-3xl font-black mt-6 mb-10 md:w-9/12">
                     We exist to enable community-driven innovation to benefit people around the world.
                 </div>
@@ -27,53 +22,22 @@ export default function Home() {
                     PlayerLink Protocol.</a>
                 </div>
             </div>
-            <div className="flex-col flex-wrap justify-between py-20 md:py-40  ">
-                <div className="text-center md:text-left   text-xl md:mt-36 ">
+            <div className="">
+                <div className="text-center md:text-left   text-xl mt-20 ">
                 To learn more about the protocol
                 </div>
-                <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid p-10 sm:gap-5">
+                <div className="flex mt-10">
                  <a
                    href="https://playerlink.org"
-                    className="flex items-center justify-center px-4 py-3 border  text-base font-medium rounded-full shadow-sm   text-white hover:bg-blue-300 sm:px-16"
+                    className="flex items-center justify-center px-4 py-3   text-base font-medium rounded-full shadow-sm   text-white  sm:px-16
+                    bg-gradient-to-r from-purple-500 via-purple-500 to-blue-500 "
                    >VISIT PlayerLink.ORG
-
                  </a>
                 </div>
             </div>
             </div>
         </div>
-            <div className="text-center md:flex  md:justify-start   md:mx-40  md:py-16 border-t-2">
-                <div className="pt-10 text-xs text-gray-400 md:text-left">
-                    © 2022 PlayerLink Foundation
-                    <div className="mt-2">
-                    All Rights Reserved
-                    </div>
-                </div>
-                <div className="pt-10 md:mr-32 md:ml-32 md:text-left">
-                    <div className="text-xl">
-                    Contact Us
-                    </div>
-                    <div className="mt-2  text-blue-600 ">
-                        <a href="mailto: hello@playerlink.org">
-                    Send an Email
-                            <i className="pl-2 fa fa-arrow-right text-gray-200" aria-hidden="true"></i>
-                        </a>
-
-                    </div>
-                </div>
-                <div className="pt-10 mb-10 md:text-left">
-                    <div className="text-xl">
-                    Careers
-                    </div>
-                    <div className="mt-2   text-blue-600">
-                        <a href="https://playerlink.org">
-                    View Openings
-                            <i className="pl-2 fa fa-arrow-right text-gray-200" aria-hidden="true"></i>
-                        </a>
-
-                </div>
-                </div>
-            </div>
+            <Tail/>
         </div>
     )
 }
